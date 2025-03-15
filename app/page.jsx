@@ -19,7 +19,7 @@ export default function Home() {
             <Link
               href="https://www.youtube.com/channel/UCeRr6_UWLnBvRVrFvt9SB1A"
               target="_blank"
-              className="link link-primary"
+              className="link link-accent"
             >
               Youtuber
             </Link>{" "}
