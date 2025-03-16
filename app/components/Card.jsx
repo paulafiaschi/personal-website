@@ -5,17 +5,23 @@ export default function Card(props) {
   console.log(props);
   return (
     <>
-      <div className="card w-96 bg-base-100 shadow-sm">
+      <div className="card w-96  shadow-sm">
         <div className="card-body">
-          <span className="badge badge-xs badge-warning">Most Popular</span>
           <div>
-            <h2 className="text-3xl font-bold">{props.title}</h2>
+            <Image
+              aria-hidden
+              src={`/${props.icon}.svg`}
+              alt={`${props.icon}`}
+              width={50}
+              height={50}
+            />
+            <h3>{props.title}</h3>
             <p>{props.subh}</p>
           </div>
 
           <div className="mt-6">
             <Link
-              className="btn btn-primary btn-block"
+              className="btn btn-soft btn-accent btn-block"
               href={`${props.link}`}
               target="blank"
             >

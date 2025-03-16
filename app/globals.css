@@ -20,6 +20,40 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.7rem;
+  line-height: 1;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.subheading {
+  font-size: 1.25rem;
+  max-width: 70ch;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+section {
+  padding: 5rem 9rem;
+}
+
+article {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 3rem;
+}
+
 .navbar {
   background: none;
   padding: 1rem 5rem;
@@ -41,4 +75,23 @@ body {
   padding-left: 9rem;
   max-width: 70ch;
   margin-left: auto;
+}
+
+.card img {
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .hero-content div {
+    padding-left: 1rem;
+  }
+  section {
+    padding: 5rem 2rem;
+    max-width: 100%;
+  }
+
+  .card {
+    max-width: 90%;
+  }
 }
