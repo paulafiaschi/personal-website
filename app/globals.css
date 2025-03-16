@@ -23,6 +23,8 @@ body {
 .navbar {
   background: none;
   padding: 1rem 5rem;
+  position: sticky;
+  z-index: 99;
 }
 
 .hero-content {
