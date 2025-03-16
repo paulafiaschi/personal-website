@@ -16,7 +16,7 @@ export default function Navbar() {
             />
           </Link>
         </div>
-        <div className="flex-none">
+        {/* <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
               <Link href={"#"}>Blog</Link>
@@ -38,7 +38,7 @@ export default function Navbar() {
               <Link href={"#"}>Contact</Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </>
   );

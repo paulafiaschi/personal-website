@@ -17,8 +17,8 @@ export default function Footer() {
         <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
       </aside>
       <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end place-self-center">
-        <p>Watch my Channel</p>{" "}
         <Link href={"https://www.youtube.com/@PauFiaschi"} target="blank">
+          <p>Watch my Channel</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"

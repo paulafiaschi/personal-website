@@ -77,17 +77,27 @@ article {
   margin-left: auto;
 }
 
-.card img {
+.card img,
+section img {
   margin: auto;
   margin-bottom: 1rem;
 }
 
+footer nav a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 @media only screen and (max-width: 767px) {
+  .navbar {
+    padding: 1rem;
+  }
   .hero-content div {
     padding-left: 1rem;
   }
   section {
-    padding: 5rem 2rem;
+    padding: 2rem 2rem;
     max-width: 100%;
   }
 

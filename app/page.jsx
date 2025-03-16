@@ -33,7 +33,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <section>
+      {/* <section>
         <h2>Elevate Your Digital Presence with me</h2>
         <p className="subheading">
           Join me on a journey to enhance your online visibility and success.
@@ -62,13 +62,28 @@ export default function Home() {
             icon="file"
           ></Card>
         </article>
-      </section>
+      </section> */}
 
-      <section>
+      {/* <section>
         <h2>Stay Updated with My Newsletter</h2>
         <p className="subheading">
           Subscribe now to receive the latest updates, tips, and resources
           directly to your inbox.
+        </p>
+      </section> */}
+
+      <section>
+        <Image
+          aria-hidden
+          src="/construction.svg"
+          alt="construction icon"
+          width={50}
+          height={50}
+        />
+        <h2>Site under construction</h2>
+        <p className="subheading">
+          I've recently changed directions in my career, and I'm building a site
+          that reflects that. Apologies for the inconvenciece, come back soon!
         </p>
       </section>
 
