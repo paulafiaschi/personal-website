@@ -26,6 +26,11 @@ export default function RootLayout({ children }) {
       >
         <Navbar></Navbar>
         {children}
+        <script
+          type="text/javascript"
+          async
+          src="https://embeds.beehiiv.com/attribution.js"
+        ></script>
       </body>
     </html>
   );
