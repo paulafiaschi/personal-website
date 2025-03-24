@@ -4,7 +4,7 @@ import BeehiivEmbed from "./BeehiivEmbed";
 
 export default function Newsletter() {
   return (
-    <section>
+    <section id="newsletter">
       <h2>Join My YouTube Journal</h2>
       <p className="subheading">
         Subscribe to my newsletter for exclusive updates on my YouTube adventure

@@ -23,14 +23,14 @@ export default function Section2() {
           subh="Improving public speaking skills can be incredibly rewarding and motivating."
           cta="Read my Blog"
           link="https://www.youtube.com/@PauFiaschi"
-          icon="blog"
+          icon="talk"
         ></Card>
         <Card
           title="Learning the Art of Editing Videos"
           subh="Learning video editing has already enhanced my storytelling skills."
           cta="Access Free Resources"
           link="https://www.youtube.com/@PauFiaschi"
-          icon="file"
+          icon="film"
         ></Card>
       </article>
       <Link

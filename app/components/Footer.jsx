@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="footer sm:footer-horizontal bg-accent text-neutral-content items-center p-4">
+    <footer className="footer sm:footer-horizontal bg-secondary text-neutral-content items-center p-4">
       <aside className="grid-flow-col items-center">
         <Link href={"#"}>
           <Image

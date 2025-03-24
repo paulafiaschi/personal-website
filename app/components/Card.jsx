@@ -5,7 +5,7 @@ export default function Card(props) {
   console.log(props);
   return (
     <>
-      <div className="card w-96  shadow-sm">
+      <div className="card w-96 ">
         <div className="card-body">
           <div>
             <Image
@@ -19,7 +19,7 @@ export default function Card(props) {
             <p>{props.subh}</p>
           </div>
 
-          <div className="mt-6">
+          {/* <div className="mt-6">
             <Link
               className="btn btn-soft btn-accent btn-block"
               href={`${props.link}`}
@@ -27,7 +27,7 @@ export default function Card(props) {
             >
               {props.cta}
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

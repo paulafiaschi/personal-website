@@ -6,7 +6,9 @@
   name: "cupcake";
   default: true;
   --color-accent: #ff3131;
-  --color-primary: #ffcd05;
+  /* --color-accent: #ae705d; */
+  --color-primary: #d9895c;
+  --color-secondary: #95532e;
 }
 
 :root {
@@ -15,13 +17,13 @@
 }
 
 body {
-  background-color: #fffcf3;
+  background-color: #fff7ef;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 h2 {
   font-size: 2rem;
@@ -47,6 +49,17 @@ h3 {
 
 section {
   padding: 5rem 9rem;
+  display: flex;
+  flex-direction: column;
+  grid-area: 2rem;
+}
+.btn {
+  width: fit-content;
+  margin: auto;
+  border-radius: 5px;
+}
+.btn-accent {
+  color: white;
 }
 
 article {
@@ -71,16 +84,51 @@ article {
   top: 0;
 }
 
+.hero p {
+  font-size: 1.25rem;
+}
+
 .hero-content div {
   padding-left: 9rem;
   max-width: 70ch;
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
+.card {
+  margin-bottom: 3rem;
+}
+
+.card-body div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 .card img,
 section img {
   margin: auto;
   margin-bottom: 1rem;
+}
+
+#testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #2b2b2b;
+  color: #fffcf3;
+}
+
+.author {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 50%;
+  margin: auto;
+  gap: 1rem;
+}
+.author .name {
+  font-weight: bold;
 }
 
 footer nav a {

@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <>
-      <div className="navbar">
+      <div className="navbar fixed top-0 right-0 left-0">
         <div className="flex-1">
           <Link href={"#"}>
             <Image
@@ -16,12 +16,15 @@ export default function Navbar() {
             />
           </Link>
         </div>
-        {/* <div className="flex-none">
+        <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link href={"#"}>Blog</Link>
+              <Link href={"/"}>Home</Link>
             </li>
             <li>
+              <Link href={"#newsletter"}>Newsletter</Link>
+            </li>
+            {/* <li>
               <details>
                 <summary>Resources</summary>
                 <ul className="bg-base-100 rounded-t-none p-2">
@@ -33,12 +36,12 @@ export default function Navbar() {
                   </li>
                 </ul>
               </details>
-            </li>
+            </li> */}
             <li>
               <Link href={"#"}>Contact</Link>
             </li>
           </ul>
-        </div> */}
+        </div>
       </div>
     </>
   );

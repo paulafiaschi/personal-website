@@ -15,9 +15,17 @@ export default function Hero() {
         <div>
           <h1 className="text-5xl font-bold">Join Me on My YouTube Journey!</h1>
           <p className="text-2xl py-3">
-            Welcome to my YouTube channel, where I share my experiences as I
-            navigate the exciting world of content creation. Subscribe now to
-            follow my journey from the very beginning and learn alongside me!
+            I recently started my{" "}
+            <Link
+              href="https://youtube.com/@paufiaschi?si=mo7MuqEqRWjctgLb&sub_confirmation=1"
+              target="_blank"
+              className="link"
+            >
+              YouTube channel
+            </Link>
+            , where I share my experiences as I navigate the exciting world of
+            content creation. Subscribe now to follow my journey from the very
+            beginning and learn alongside me!
           </p>
           <Link
             href="https://youtube.com/@paufiaschi?si=mo7MuqEqRWjctgLb&sub_confirmation=1"
