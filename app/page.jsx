@@ -8,14 +8,13 @@ import Newsletter from "./components/Newsletter";
 import Testimonials from "./components/Testimonials";
 
 export default function Home() {
+  console.log("Beehiiv API Key:", process.env.BEEHIIV_API_KEY);
   return (
     <>
       <Hero></Hero>
       <Section2></Section2>
       <Testimonials></Testimonials>
       <Newsletter></Newsletter>
-
-      <Footer></Footer>
     </>
   );
 }

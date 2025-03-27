@@ -30,7 +30,7 @@ export default function Hero() {
           <Link
             href="https://youtube.com/@paufiaschi?si=mo7MuqEqRWjctgLb&sub_confirmation=1"
             target="_blank"
-            className="btn btn-accent"
+            className="btn btn-accent btn-outline"
           >
             Subscribe to My Channel
           </Link>

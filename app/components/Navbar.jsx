@@ -18,11 +18,11 @@ export default function Navbar() {
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
+            <li>{/* <Link href={"/"}>Home</Link> */}</li>
             <li>
-              <Link href={"/"}>Home</Link>
-            </li>
-            <li>
-              <Link href={"#newsletter"}>Newsletter</Link>
+              <Link href={"/newsletter"} className="btn btn-accent">
+                ✍️ Join my Newsletter
+              </Link>
             </li>
             {/* <li>
               <details>
