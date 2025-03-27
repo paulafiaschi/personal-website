@@ -22,20 +22,40 @@ export default function Posts() {
   console.log(posts);
   return (
     <div>
-      <h1>Newsletter Posts</h1>
-
       {error && <p style={{ color: "red" }}>Error: {error}</p>}
 
-      <ul>
-        {posts.map((post) => (
-          <li key={post.id}>
-            <Link href={post.web_url} target="_blank" rel="noopener noreferrer">
-              {post.title}
-              <Image src={post.thumbnail_url} width={100} height={100}></Image>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <div className="posts-grid">
+        {posts.map((post) => {
+          const publishDate = new Date(
+            post.publish_date * 1000
+          ).toLocaleDateString("en-GB", {
+            day: "2-digit",
+            month: "short",
+            year: "numeric",
+          });
+
+          return (
+            <div className="post-item" key={post.id}>
+              <Link
+                href={post.web_url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={post.thumbnail_url}
+                  width={300}
+                  height={100}
+                  alt={post.title}
+                />
+                <p>{post.title}</p>
+                <p className="date">{publishDate}</p>{" "}
+                {/* Display formatted date */}
+              </Link>
+            </div>
+          );
+        })}
+        <div className="post2"></div>
+      </div>
     </div>
   );
 }
