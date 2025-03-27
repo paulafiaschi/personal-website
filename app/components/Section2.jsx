@@ -36,7 +36,7 @@ export default function Section2() {
       <Link
         href="https://youtube.com/@paufiaschi?si=mo7MuqEqRWjctgLb&sub_confirmation=1"
         target="_blank"
-        className="btn btn-accent"
+        className="btn btn-large btn-accent"
       >
         Subscribe to My Channel
       </Link>

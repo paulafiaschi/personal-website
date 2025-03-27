@@ -6,7 +6,7 @@ export default function Navbar() {
     <>
       <div className="navbar fixed top-0 right-0 left-0">
         <div className="flex-1">
-          <Link href={"#"}>
+          <Link href={"/"}>
             <Image
               aria-hidden
               src="/PF.svg"
@@ -37,9 +37,9 @@ export default function Navbar() {
                 </ul>
               </details>
             </li> */}
-            <li>
+            {/* <li>
               <Link href={"#"}>Contact</Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

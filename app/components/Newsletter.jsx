@@ -12,7 +12,11 @@ export default function Newsletter() {
       </p>
       <BeehiivEmbed></BeehiivEmbed>
 
-      <p>By clicking Sign Up, you agree to our Terms and Conditions.</p>
+      <p className="caveat">
+        By submitting this form, you’ll be signed up to my free newsletter. I
+        may also send you other emails about my courses. You can opt-out at any
+        time.
+      </p>
     </section>
   );
 }
