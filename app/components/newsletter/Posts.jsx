@@ -21,7 +21,7 @@ export default function Posts() {
   }, []);
   console.log(posts);
   return (
-    <div>
+    <div className="mt-5">
       {error && <p style={{ color: "red" }}>Error: {error}</p>}
 
       <div className="posts-grid">
@@ -43,18 +43,17 @@ export default function Posts() {
               >
                 <Image
                   src={post.thumbnail_url}
-                  width={300}
+                  width={500}
                   height={100}
                   alt={post.title}
                 />
-                <p>{post.title}</p>
+                <p className="font-bold text-xl">{post.title}</p>
                 <p className="date">{publishDate}</p>{" "}
                 {/* Display formatted date */}
               </Link>
             </div>
           );
         })}
-        <div className="post2"></div>
       </div>
     </div>
   );

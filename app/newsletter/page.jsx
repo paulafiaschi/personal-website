@@ -1,5 +1,5 @@
-import NLHero from "../components/NLHero";
-import Posts from "../components/Posts";
+import NLHero from "../components/newsletter/NLHero";
+import Posts from "../components/newsletter/Posts";
 
 export default function Newsletter() {
   return (

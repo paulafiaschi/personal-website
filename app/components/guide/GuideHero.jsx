@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import BeehiivEmbed from "../BeehiivEmbed";
+import BeehiivGuideEmbed from "../BeehiivGuideEmbed";
 
 export default function NLHero() {
   return (
@@ -13,13 +15,14 @@ export default function NLHero() {
           height={500}
         />
         <div>
-          <p>Free Bi-weekly</p>
-          <h1 className="text-5xl font-bold">YouTube Insights</h1>
+          <h1 className="text-5xl font-bold">
+            Ready to Start Your YouTube Journey?
+          </h1>
           <p className="text-2xl py-3">
-            Join <b>My YouTube Journal</b> - my free bi-weekly newsletter where
-            I share my thoughts, challenges and learnings from my YouTube
-            journey.
+            Download the FREE step-by-step guide to confidently creating,
+            filming, editing, and uploading your first YouTube video with ease.
           </p>
+          <BeehiivGuideEmbed></BeehiivGuideEmbed>
         </div>
       </div>
     </div>

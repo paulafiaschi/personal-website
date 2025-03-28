@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import BeehiivEmbed from "./BeehiivEmbed";
+import BeehiivEmbed from "../BeehiivEmbed";
 
 export default function Newsletter() {
   return (
@@ -11,12 +11,6 @@ export default function Newsletter() {
         and personal insights.
       </p>
       <BeehiivEmbed></BeehiivEmbed>
-
-      <p className="caveat">
-        By submitting this form, you’ll be signed up to my free newsletter. I
-        may also send you other emails about my courses. You can opt-out at any
-        time.
-      </p>
     </section>
   );
 }
