@@ -29,7 +29,7 @@ export default function guide() {
         </article>
       </section>
 
-      <section class="highlight">
+      <section className="highlight">
         <div className="highlight-card">
           <h2 className="mb-5">Get the FREE Guide and Start Your Journey</h2>
           <BeehiivGuideEmbed></BeehiivGuideEmbed>
